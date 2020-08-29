@@ -1,0 +1,25 @@
+.body{
+    background-color:#FFFFFF
+}
+.ul{
+    list-style: none;
+}
+/*  основной цвет текста color: #212121  */
+/* вторичный цвет текста color: #757575  */
+/* белый #FFFFFF  */
+/* акцент color: #2196F3  */
+/*вторичный цвет фона  background: rgba(47, 48, 58, 0.8); */
+
+
+/* Web Studio */
+.logo1{
+    color: #212121
+}
+
+.logo2{
+    color:#2196F3
+}
+
+.site-nav{
+    color: #757575 
+}

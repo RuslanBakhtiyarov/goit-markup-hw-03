@@ -1,25 +1,189 @@
-.body{
-    background-color:#FFFFFF
-}
-.ul{
-    list-style: none;
-}
+
 /*  основной цвет текста color: #212121  */
 /* вторичный цвет текста color: #757575  */
 /* белый #FFFFFF  */
 /* акцент color: #2196F3  */
-/*вторичный цвет фона  background: rgba(47, 48, 58, 0.8); */
-
-
-/* Web Studio */
-.logo1{
-    color: #212121
+/*вторичный цвет фона  background: rgba(47, 48, 58, 0.8); */ 
+ 
+ html {
+    box-sizing: border-box;
+  }
+  *,
+  *::after,
+  *::before {
+    box-sizing: inherit;
+  }
+  body {
+    font-family: "Roboto", "Raleway";
+    font-size: 14px;
+    line-height: 1.625;
+    letter-spacing: 0.02em;
+    color: var(--main-color);
+  }
+.ul{
+    list-style: none; 
 }
 
+.page-header.flexbox{
+  justify-content: flex-end;
+    align-items: center;
+}
+.container{
+    width: 1600px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.flexbox{
+  display: flex;
+}
+/* WebStudio */
+
+.WebStudio{
+position: absolute;
+width: 145px;
+height: 31px;
+left: 215px;
+top: 24px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+
+letter-spacing: 0.03em;
+
+color: #2196F3;
+}
+.menu-list{
+    display: flex;
+}
+.menu-item{
+    margin-right: 50px;
+}
+.sitle-nav.menu-item:last-child{
+  margin-right: 0;
+}
+.logo{
+  color: #2196f3;
+}
+.logo1 {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  color: #2196f3;
+  margin: 0px;
+}
 .logo2{
-    color:#2196F3
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  margin: 0px;
+  color: #212121;
+}
+.navigation{
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+.list {
+  list-style: none;
+  margin:0;
+  padding:0;
+}
+/*.logo{
+  margin-right: 93px;*/
+}
+/* Menu Nav */
+
+.menu{
+position: absolute;
+width: 294px;
+height: 16px;
+left: 453px;
+top: 32px;
+}
+.menu-link {
+  color: #212121;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: none;
+}
+.menu-link:hover {
+  color: #2196f3;
+}
+/* E-mail */
+
+.e-mail{
+color: #757575;
+position: absolute;
+width: 135px;
+height: 16px;
+left: 1078px;
+top: 32px;
+}
+.e-mail:hover{
+  color: #2196f3;
+}
+/* Tel */
+.tel{
+color: #757575;  
+position: absolute;
+width: 122px;
+height: 16px;
+left: 1263px;
+top: 32px;
+}
+.tel:hover{
+  color: #2196f3;
 }
 
-.site-nav{
-    color: #757575 
+/* Bg */
+
+.bg{
+position: absolute;
+width: 1600px;
+height: 600px;
+left: 0px;
+top: 80px;
+background: #2F303A;
+}
+
+/* Эффективные решения для вашего бизнеса */
+
+.wid{
+position: absolute;
+width: 696px;
+height: 120px;
+left: 452px;
+top: 280px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+/* or 136% */
+
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+/* Button */
+
+.button{
+position: absolute;
+width: 200px;
+height: 50px;
+left: 700px;
+top: 430px;
 }

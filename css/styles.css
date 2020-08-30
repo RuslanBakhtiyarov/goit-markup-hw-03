@@ -357,6 +357,7 @@ body {
   margin: 0px;
 }
 /* ПОРТФОЛИО */
+
 .botton {
   font-family: "Roboto";
   font-style: normal;
@@ -374,6 +375,7 @@ body {
   text-decoration: none;
   transition: color 0.2s linear;
 }
+
 .botton:hover {
   background: #2196f3;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
